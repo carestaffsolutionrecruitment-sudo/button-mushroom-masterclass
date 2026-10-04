@@ -1,0 +1,373 @@
+<div style="font-family:Arial,Helvetica,sans-serif;line-height:1.6;color:#1f2933;">
+<h1 style="font-size:28px;margin:0 0 16px;color:#14532d;">Module 1: Facility Infrastructure &amp; Climate Control Engineering</h1>
+<blockquote style="margin:16px 0;padding:12px 16px;background:#f0fdf4;border-left:4px solid #16a34a;">
+<p><strong>Learning outcomes.</strong> By the end of this module you will be able to (1) choose a production site from climate data, (2) specify a building envelope for either a low-cost passive farm or an industrial climate-controlled farm, (3) size ventilation, cooling, heating, and water systems, and (4) lay out a biosecure facility that complies with Kenyan approvals.</p>
+<p><strong>Linked documents:</strong> SOP-101 · Deliverable-101 · Kenya Regional Reference Annex KE-00 (§1 climate, §3 water, §4 energy, §5 regulation)</p>
+</blockquote>
+<hr style="border:0;border-top:1px solid #e2e8f0;margin:28px 0;" />
+<h2 style="font-size:22px;margin:32px 0 12px;padding-bottom:6px;border-bottom:2px solid #16a34a;color:#14532d;">1. Regional Adaptation Frameworks</h2>
+<p>A commercial button mushroom (<em>Agaricus bisporus</em>) facility exists to hold two very different microclimates: a warm, high-CO₂ spawn run, then a cool, fresh-air fruiting regime. How you hold them depends on your climate and capital.</p>
+<h3 style="font-size:18px;margin:24px 0 8px;color:#166534;">1.1 Europe &amp; USA — Industrial benchmark</h3>
+<ul>
+<li><strong>Envelope:</strong> Insulated sandwich panels (80–120 mm PIR/PUR core, aluminium or food-grade coated steel skins) on concrete floors with integral drains. The Netherlands, Ireland, and Poland use multi-tier aluminium <strong>Dutch shelf</strong> rooms; Pennsylvania (USA) still runs many wooden <strong>bed/shelf</strong> farms with room steam pasteurisation.</li>
+<li><strong>Automation:</strong> Air Handling Units (AHUs) with cooling coils fed by closed-loop chillers, steam or hot-water heating coils, mixing boxes that blend recirculated and fresh air, positive-pressure filtered plenums, and computerised climate controllers (SCADA-type) running every stage.</li>
+<li><strong>Supply chain model:</strong> Most European growers buy <strong>Phase III (fully spawn-run) compost</strong> from specialised compost companies and only crop it. Room turnover is fast (≈ 5–6 weeks per crop) and yields are 30–35 kg/m².</li>
+</ul>
+<h3 style="font-size:18px;margin:24px 0 8px;color:#166534;">1.2 West Africa — Hot-tropical track</h3>
+<ul>
+<li><strong>Thermal management:</strong> Year-round lowland ambient temperatures of 25–33 °C make passive <em>A. bisporus</em> fruiting impossible.</li>
+<li><strong>Strain selection:</strong> Use warm-weather <em>Agaricus bitorquis</em> strains, which spawn-run hotter and fruit at about 24–28 °C, or run fully refrigerated rooms for <em>A. bisporus</em>.</li>
+<li><strong>Infrastructure:</strong> Earth-sheltered root-cellar rooms, double-walled shade houses, roof-thatch drip systems that keep the envelope evaporatively cooled, and night-time ventilation. Highland pockets (e.g., Jos Plateau in Nigeria, Cameroon's western highlands) can use the Kenyan passive model below.</li>
+</ul>
+<h3 style="font-size:18px;margin:24px 0 8px;color:#166534;">1.3 Kenya &amp; East Africa — Highland passive and semi-industrial track</h3>
+<ul>
+<li><strong>The highland advantage:</strong> At 1,900–2,300 m (Limuru, Tigoni, upper Kiambu, Nyeri, Eldoret, Molo) the <strong>mean daily temperature already equals the 16–18 °C fruiting target</strong>. The engineering job is not to create cold; it is to <strong>damp the day–night swing</strong> (often 9 °C → 23 °C) into a stable mean. Thermal mass, roof insulation, and timed ventilation do that for a fraction of chiller cost. See KE-00 §1 for the site table.</li>
+<li><strong>Two build tracks:</strong></li>
+<li><strong>Track K1 — Passive / low-energy:</strong> Compressed Stabilized Earth Block (CSEB) or machine-cut stone walls, insulated or double-thatched roofs, earth-air tubes, night-flush ventilation, evaporative curtains. CapEx ≈ KES 15,000–22,000 per m² of building.</li>
+<li><strong>Track K2 — Semi-industrial:</strong> Locally fabricated PIR/EPS sandwich-panel rooms, ducted inverter split or chiller cooling, controller-managed fresh air, Phase II tunnel. CapEx ≈ KES 45,000–80,000 per m² of building.</li>
+<li><strong>Altitude corrections:</strong> Air at 2,200 m is about 20% less dense, so fans and coolers must be upsized; NDIR CO₂ meters under-read unless pressure-compensated; water boils at ≈ 93 °C (KE-00 §1.4).</li>
+<li><strong>Cold-site caveat:</strong> At Timau or upper Molo (&gt; 2,400 m), nights of 3–7 °C in July–August can stall the spawn run. Design those rooms with <strong>heat retention first</strong> (insulation, airtight doors) and a small thermostatic heater.</li>
+</ul>
+<hr style="border:0;border-top:1px solid #e2e8f0;margin:28px 0;" />
+<h2 style="font-size:22px;margin:32px 0 12px;padding-bottom:6px;border-bottom:2px solid #16a34a;color:#14532d;">2. Site Selection &amp; Layout</h2>
+<h3 style="font-size:18px;margin:24px 0 8px;color:#166534;">2.1 Site selection scorecard</h3>
+<table style="border-collapse:collapse;width:100%;margin:12px 0 20px;font-size:14px;">
+<thead>
+<tr>
+<th style="border:1px solid #cbd5e1;background:#ecfdf5;padding:8px;text-align:left;vertical-align:top;text-align: left;">Criterion</th>
+<th style="border:1px solid #cbd5e1;background:#ecfdf5;padding:8px;text-align:left;vertical-align:top;text-align: left;">Weight</th>
+<th style="border:1px solid #cbd5e1;background:#ecfdf5;padding:8px;text-align:left;vertical-align:top;text-align: left;">What "good" looks like in Kenya</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">Altitude &amp; climate</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">25%</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">1,900–2,300 m; 12 months of logger data with mean 15–18 °C</td>
+</tr>
+<tr>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">Water</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">20%</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">Borehole yield ≥ 2 m³/h or piped supply plus ≥ 60 days of storage; water analysis in range (KE-00 §3.4)</td>
+</tr>
+<tr>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">Market access</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">15%</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">≤ 90 minutes to buyer DCs (Nairobi, Nakuru, Eldoret, Nyeri); all-weather road (murram that turns impassable in the long rains is a production risk)</td>
+</tr>
+<tr>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">Raw materials</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">15%</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">≤ 150 km from straw source; poultry manure supply ≤ 50 km</td>
+</tr>
+<tr>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">Neighbours &amp; NEMA</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">10%</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">Compost yard ≥ 100–300 m from homes and downwind of them (prevailing winds are mostly easterly in the central highlands — <strong>confirm on site</strong>); no wetland or riparian conflict</td>
+</tr>
+<tr>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">Power</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">10%</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">3-phase grid within reach, or a solar-hybrid design</td>
+</tr>
+<tr>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">Land &amp; security</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">5%</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">Title/lease ≥ 10 years; fenced; flat or gently terraced</td>
+</tr>
+</tbody>
+</table>
+<h3 style="font-size:18px;margin:24px 0 8px;color:#166534;">2.2 Biosecure "dirty-to-clean" layout</h3>
+<p>Material moves one way only: <strong>dirty → clean</strong>. People move <strong>clean → dirty</strong> within a day, never back.</p>
+<pre style="background:#f8fafc;border:1px solid #e2e8f0;padding:12px;overflow-x:auto;font-size:13px;line-height:1.4;"><code style="font-family:Consolas,Menlo,monospace;" class="language-text"> [Raw material store] → [Phase I yard (roofed)] → [Phase II tunnel/chamber] → [Spawning hall]
+                                                                                  │
+                     [Spent compost exit / SMC pad] ← [Cropping rooms] ← [Spawn-run rooms]
+                                                          │
+                                                    [Packhouse &amp; cold room] → [Dispatch]
+</code></pre>
+<ul>
+<li>Keep the compost yard <strong>≥ 30 m</strong> from growing rooms and downwind; flies and <em>Trichoderma</em> spores travel from compost to crop.</li>
+<li>Separate the spent-compost exit door from the clean filling door.</li>
+<li>Put a changing room, footbath, and handwash station at the clean-zone entry (SOP-402).</li>
+<li>Collect yard leachate and goody water in a lined pit for reuse. <strong>No discharge to watercourses</strong> (a NEMA licence condition).</li>
+</ul>
+<h3 style="font-size:18px;margin:24px 0 8px;color:#166534;">2.3 Building orientation for an equatorial site</h3>
+<p>Near the equator the sun is close to overhead at noon and rises and sets almost due east and west all year.</p>
+<ul>
+<li>Run the <strong>long axis east–west</strong>. The long walls then face north and south and receive little direct sun; only the short gable walls see low-angle morning and afternoon sun.</li>
+<li>Shade east/west gables with roof overhangs, a veranda, a store room, or a planted windbreak (indigenous trees or <em>Grevillea</em>, kept ≥ 5 m from walls).</li>
+<li><strong>The roof is the dominant heat-gain surface.</strong> Spend insulation money on the roof first (§3.3).</li>
+</ul>
+<hr style="border:0;border-top:1px solid #e2e8f0;margin:28px 0;" />
+<h2 style="font-size:22px;margin:32px 0 12px;padding-bottom:6px;border-bottom:2px solid #16a34a;color:#14532d;">3. Building Envelope — Kenyan Track K1 (Passive / Low-Energy)</h2>
+<h3 style="font-size:18px;margin:24px 0 8px;color:#166534;">3.1 Wall systems</h3>
+<table style="border-collapse:collapse;width:100%;margin:12px 0 20px;font-size:14px;">
+<thead>
+<tr>
+<th style="border:1px solid #cbd5e1;background:#ecfdf5;padding:8px;text-align:left;vertical-align:top;text-align: left;">Wall type</th>
+<th style="border:1px solid #cbd5e1;background:#ecfdf5;padding:8px;text-align:left;vertical-align:top;text-align: left;">Typical build</th>
+<th style="border:1px solid #cbd5e1;background:#ecfdf5;padding:8px;text-align:left;vertical-align:top;text-align: left;">Approx. U-value (W/m²K)</th>
+<th style="border:1px solid #cbd5e1;background:#ecfdf5;padding:8px;text-align:left;vertical-align:top;text-align: left;">Thermal mass &amp; time lag</th>
+<th style="border:1px solid #cbd5e1;background:#ecfdf5;padding:8px;text-align:left;vertical-align:top;text-align: left;">Kenyan notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;"><strong>CSEB, 300 mm</strong> (soil + 5–8% cement, hydraulically pressed, interlocking)</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">Blocks made on site from subsoil with a manual or motorised press</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">≈ 2.0</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">High; ≈ 8–10 h lag</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">Lowest embodied cost; uses on-site murram/subsoil. Needs a damp-proof course, a 600 mm roof overhang, and an external lime-render or water-repellent coat on rainy-side walls.</td>
+</tr>
+<tr>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;"><strong>CSEB, 300 mm + 50 mm external EPS + render</strong></td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">As above with external insulation</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">≈ 0.5</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">High mass <strong>inside</strong> the insulation (ideal)</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">Best passive performance: mass stabilises the interior, insulation blocks the swing.</td>
+</tr>
+<tr>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;"><strong>Machine-cut stone, 200–230 mm</strong> (e.g., quarried volcanic tuff, "6 × 9" or "9 × 9" blocks)</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">Cement–sand mortar</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">≈ 3.0–3.5</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">High</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">Readily available around Nairobi, Kiambu, and Nyeri. Add 40–50 mm internal EPS behind plasterboard <strong>or</strong> a CSEB inner leaf with a cavity.</td>
+</tr>
+<tr>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;"><strong>Timber frame + infill insulation</strong></td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">Treated cypress/pine studs, 75–100 mm mineral wool, inner PVC/plywood lining, external iron sheet or board</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">≈ 0.4–0.5</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">Low</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">Fast and cheap, but no mass, so it needs active control. Use <strong>pressure-treated</strong> timber (termites) and a polythene vapour barrier.</td>
+</tr>
+<tr>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;"><strong>Mud-daub / wattle</strong></td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">Traditional</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">≈ 2.5–3.0</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">Medium</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">Acceptable for antechambers and stores only. It cannot be disinfected or sealed against flies, so <strong>do not use it for grow rooms</strong>.</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Thermal-mass design rule:</strong> a 300 mm earth wall delays the outdoor peak by ≈ 8–10 h and cuts its amplitude to ≈ 20–30%. A 14 °C outdoor swing (9 °C → 23 °C) becomes a 3–4 °C swing at the inner wall surface, and the stored afternoon heat arrives at night, exactly when you can flush it out with cool night air (SOP-101).</p>
+<h3 style="font-size:18px;margin:24px 0 8px;color:#166534;">3.2 Interior finish — hygiene audit correction</h3>
+<p><em>Audit note: earlier versions recommended bare earth floors and exposed earth walls inside grow rooms. That is withdrawn.</em> Bare earth harbours nematodes, sciarid larvae, <em>Trichoderma</em>, and <em>Mycogone</em>, and cannot be disinfected.</p>
+<ul>
+<li><strong>Floors:</strong> 100 mm concrete slab with a hard trowelled screed sloped <strong>1:100</strong> to a trapped floor drain. Coved floor–wall joints. For floor-wetting humidification, use a shallow screed channel along the wall, not bare earth.</li>
+<li><strong>Walls:</strong> Cement–lime plaster finished with washable oil-based or epoxy paint, or PVC cladding. It must withstand chlorine and peroxide disinfectants.</li>
+<li><strong>Earth surfaces</strong> are acceptable on the <strong>outside</strong> of the clean zone (corridors, stores) and for evaporative cooling elements.</li>
+</ul>
+<h3 style="font-size:18px;margin:24px 0 8px;color:#166534;">3.3 Roof systems (highest-impact decision)</h3>
+<table style="border-collapse:collapse;width:100%;margin:12px 0 20px;font-size:14px;">
+<thead>
+<tr>
+<th style="border:1px solid #cbd5e1;background:#ecfdf5;padding:8px;text-align:left;vertical-align:top;text-align: left;">Roof option</th>
+<th style="border:1px solid #cbd5e1;background:#ecfdf5;padding:8px;text-align:left;vertical-align:top;text-align: left;">Build-up (outside → inside)</th>
+<th style="border:1px solid #cbd5e1;background:#ecfdf5;padding:8px;text-align:left;vertical-align:top;text-align: left;">Approx. U-value</th>
+<th style="border:1px solid #cbd5e1;background:#ecfdf5;padding:8px;text-align:left;vertical-align:top;text-align: left;">Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;"><strong>Bare iron sheet ("mabati")</strong></td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">Sheet only</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">≈ 6–7</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;"><strong>Unacceptable</strong> for grow rooms. A dark sheet in equatorial sun reaches a sol-air temperature of 60–70 °C.</td>
+</tr>
+<tr>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;"><strong>Insulated iron sheet + radiant barrier</strong></td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">Light-coloured/white pre-painted box-profile sheet → <strong>reflective foil sarking with ≥ 25 mm still air gap facing the foil</strong> → ventilated roof void → 100 mm mineral wool or 75 mm EPS on the ceiling → polythene vapour barrier (≈ 250 µm, "1000 gauge") → washable ceiling board/PVC</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">≈ 0.3–0.4</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">Recommended default. Ventilate the roof void with eaves and ridge vents.</td>
+</tr>
+<tr>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;"><strong>Double-layer grass thatch</strong></td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">Two independent thatch layers (each ≈ 150–200 mm) with a ventilated gap → <strong>separate sealed inner ceiling</strong> (vapour barrier + washable board)</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">≈ 0.25–0.35</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">Excellent insulation from local material. Controls: fire break ≥ 10 m from other buildings, fire extinguishers, insect/rodent-proof inner ceiling (thatch harbours insects and debris and must <strong>never</strong> be the grow-room ceiling), re-thatch every 5–8 years.</td>
+</tr>
+<tr>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;"><strong>Sandwich panel roof</strong> (Track K2)</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">80–100 mm PIR panel</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">≈ 0.2–0.25</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">Industrial standard; locally fabricated panels are available.</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Why the roof matters — worked example.</strong> A 70 m² room ceiling at fruiting temperature (17 °C) under a noon sol-air temperature of 65 °C:</p>
+<ul>
+<li>Bare dark mabati, U ≈ 6.5: Q = 6.5 × 70 × (65–17) ≈ 21.8 kW of heat gain, which no passive system can remove.</li>
+<li>Insulated roof, U ≈ 0.35: Q = 0.35 × 70 × 48 ≈ 1.2 kW, which thermal mass and night ventilation can absorb.</li>
+</ul>
+<h3 style="font-size:18px;margin:24px 0 8px;color:#166534;">3.4 Vapour control, airtightness, and condensation</h3>
+<ul>
+<li>Fruiting rooms run at 85–95% RH. Place the <strong>vapour barrier on the warm, humid (inner) side</strong> of insulation, and seal all penetrations.</li>
+<li>Fit doors with rubber gaskets. Airtightness is what lets you hold CO₂ during the spawn run and keep heat in on cold highland nights.</li>
+<li><strong>Anti-condensation:</strong> Insulated ceilings prevent cold-surface drip. Over shelves, fit sloped polythene or aluminium baffles that shed drips to the aisle. Drips on caps cause bacterial blotch.</li>
+</ul>
+<h3 style="font-size:18px;margin:24px 0 8px;color:#166534;">3.5 Pest-proofing the structure</h3>
+<ul>
+<li><strong>Termites:</strong> pre-construction soil treatment by a licensed applicator, or a physical barrier (graded stone or stainless mesh), plus treated timber.</li>
+<li><strong>Rodents:</strong> 600 mm concrete apron, sealed service entries, door sweeps.</li>
+<li><strong>Safari ants (siafu) and other ants:</strong> a water moat or sticky barrier around shelf legs in passive houses, and grease bands on posts.</li>
+<li><strong>Flies:</strong> every opening screened with <strong>≤ 0.6 mm insect netting</strong> (sciarid and phorid adults are ≈ 2–3 mm). Fine screens cut airflow by 50–70%, so <strong>make the screened area 2–3× the free vent area</strong>.</li>
+</ul>
+<hr style="border:0;border-top:1px solid #e2e8f0;margin:28px 0;" />
+<h2 style="font-size:22px;margin:32px 0 12px;padding-bottom:6px;border-bottom:2px solid #16a34a;color:#14532d;">4. Passive Climate Systems (Track K1)</h2>
+<h3 style="font-size:18px;margin:24px 0 8px;color:#166534;">4.1 Earth–air heat exchanger ("earth tube")</h3>
+<p>At 1.5–2.0 m depth, soil temperature stays near the <strong>annual mean air temperature</strong> (≈ 15–17 °C at Limuru, ≈ 16–18 °C at Nyeri and Eldoret), which is almost exactly the fruiting target.</p>
+<ul>
+<li><strong>Design:</strong> 20–30 m of 150–200 mm smooth-bore PVC per tube, buried 1.5–2.0 m deep, laid at a 1–2% fall to a condensate drain at the low end, with an insect-screened and filtered intake hood ≥ 1 m above ground.</li>
+<li><strong>Output:</strong> ≈ 100–200 m³/h per tube at 16–19 °C outlet temperature (verify on site). Three to five tubes per 100 m² of bed supply the base fresh air for fruiting through an inline fan.</li>
+<li><strong>Hygiene:</strong> fit a removable inlet filter and clean the tube annually with a pull-through brush or a chlorine flush. Condensate pooling breeds bacteria, so the drain must work.</li>
+</ul>
+<h3 style="font-size:18px;margin:24px 0 8px;color:#166534;">4.2 Night-flush ventilation</h3>
+<p>Open low intakes and high gable/ridge outlets during the coolest hours (≈ 22:00–07:00, adjusted to your logger data) to purge the heat stored in the walls and the CO₂. Seal up before the morning temperature rise. The <strong>stack effect</strong> (warm air rising out of high vents) drives the flow with no fans when the vertical separation between inlet and outlet is ≥ 2.5 m. Full operating schedule: SOP-101.</p>
+<h3 style="font-size:18px;margin:24px 0 8px;color:#166534;">4.3 Evaporative cooling</h3>
+<ul>
+<li><strong>Hessian/coir curtains or cellulose pads</strong> over intakes, kept wet with a gravity drip line from the elevated tank.</li>
+<li>Effectiveness depends on the <strong>wet-bulb depression</strong>: large in January–February and September–October (dry air, 6–10 °C of cooling possible), small in the rainy seasons (1–3 °C). Plan evaporative cooling for the hot dry seasons and do not rely on it in March–May.</li>
+<li>Hessian grows mould. Rotate two sets weekly, sun-dry, and replace monthly.</li>
+</ul>
+<h3 style="font-size:18px;margin:24px 0 8px;color:#166534;">4.4 Heat retention and supplementary heat (cold highland sites)</h3>
+<ul>
+<li>The spawn-run compost generates its own heat. Insulate and close the room, and room air at 20–23 °C keeps the compost at 24–25 °C.</li>
+<li>If night room air drops below ≈ 19 °C and the compost core falls below 22 °C: add a thermostatically controlled oil-filled electric heater (1.5–2 kW per 100 m² of bed is a typical starting point), or hot-water pipes from a solar water heater with a backup element. <strong>Never use open charcoal jikos or paraffin burners.</strong> They produce carbon monoxide (lethal to workers) and ethylene/combustion gases that damage the crop.</li>
+</ul>
+<hr style="border:0;border-top:1px solid #e2e8f0;margin:28px 0;" />
+<h2 style="font-size:22px;margin:32px 0 12px;padding-bottom:6px;border-bottom:2px solid #16a34a;color:#14532d;">5. Industrial and Semi-Industrial Climate Engineering (Track K2 &amp; Global)</h2>
+<h3 style="font-size:18px;margin:24px 0 8px;color:#166534;">5.1 Target operational parameters across cycles</h3>
+<table style="border-collapse:collapse;width:100%;margin:12px 0 20px;font-size:14px;">
+<thead>
+<tr>
+<th style="border:1px solid #cbd5e1;background:#ecfdf5;padding:8px;text-align:left;vertical-align:top;text-align: left;">Stage</th>
+<th style="border:1px solid #cbd5e1;background:#ecfdf5;padding:8px;text-align:left;vertical-align:top;text-align: left;">Air temp</th>
+<th style="border:1px solid #cbd5e1;background:#ecfdf5;padding:8px;text-align:left;vertical-align:top;text-align: left;">Compost/bed temp</th>
+<th style="border:1px solid #cbd5e1;background:#ecfdf5;padding:8px;text-align:left;vertical-align:top;text-align: left;">RH</th>
+<th style="border:1px solid #cbd5e1;background:#ecfdf5;padding:8px;text-align:left;vertical-align:top;text-align: left;">CO₂</th>
+<th style="border:1px solid #cbd5e1;background:#ecfdf5;padding:8px;text-align:left;vertical-align:top;text-align: left;">Fresh air</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;"><strong>Spawn run</strong></td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">20–23 °C</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">24–25 °C (max 27 °C)</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">90–95%</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">5,000–10,000 ppm</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">Minimal, only to stop overheating</td>
+</tr>
+<tr>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;"><strong>Case run</strong></td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">22–24 °C</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">23–25 °C</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">90–95%</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">3,000–5,000 ppm</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">Low</td>
+</tr>
+<tr>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;"><strong>Pinning &amp; fruiting</strong></td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">16–18 °C</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">17–19 °C</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">85–90%</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">&lt; 1,000 ppm</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">4–6 air changes/hour</td>
+</tr>
+<tr>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;"><strong>Cold storage</strong></td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">2–4 °C</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">—</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">≈ 90%</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">—</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">Closed</td>
+</tr>
+</tbody>
+</table>
+<p>Full matrix with alarm thresholds and Kenyan seasonal overrides: <strong>Deliverable-101</strong>.</p>
+<h3 style="font-size:18px;margin:24px 0 8px;color:#166534;">5.2 Fan and fresh-air sizing (worked example, Limuru altitude)</h3>
+<p>Room: 10 m × 7 m × 3.5 m = <strong>245 m³</strong>, 100 m² of shelf area.</p>
+<ol>
+<li>Fruiting fresh-air target at 6 air changes/hour: 245 × 6 = 1,470 m³/h (≈ 14.7 m³/h per m² of bed).</li>
+<li>Altitude correction (+25% for ≈ 80% air density): 1,470 × 1.25 ≈ 1,840 m³/h.</li>
+<li>Filter, screen, and duct losses: select a fan rated for <strong>≈ 1,850–2,000 m³/h at 150–250 Pa</strong> static pressure, with a variable-speed controller so the same fan can run at 20–30% during spawn run.</li>
+<li>Recirculation: add an internal fan moving ≈ 3–5× the room volume per hour through a perforated poly-tube duct along each shelf aisle so the air at the beds is even (no dead pockets of high CO₂).</li>
+</ol>
+<h3 style="font-size:18px;margin:24px 0 8px;color:#166534;">5.3 Cooling load (Track K2, Nairobi peri-urban example)</h3>
+<p>Sensible load components for a 100 m² bed room during fruiting: envelope gain (≈ 1–2 kW with insulated panels), fresh-air load (1,840 m³/h of 26 °C air cooled to 17 °C at 0.98 kg/m³: ≈ 0.51 kg/s × 1.006 × 9 ≈ 4.6 kW), and crop respiration plus compost heat (≈ 1.5–3 kW in the first flush). <strong>Design ≈ 8–10 kW (≈ 2.5–3 TR) of cooling per 100 m² of bed</strong> for a lowland-edge site, versus ≈ 0–3 kW for a well-built passive room at Limuru. Use inverter split units or a small chiller with a dehumidification-capable coil.</p>
+<h3 style="font-size:18px;margin:24px 0 8px;color:#166534;">5.4 Air distribution, filtration, and pressure</h3>
+<ul>
+<li><strong>Plenums and ducting:</strong> Perforated overhead poly-tube ducts are the low-cost standard (locally made, washable, cheap to replace). They give uniform airflow across all shelf tiers or bag rows.</li>
+<li><strong>Filtration:</strong> G4 pre-filter plus F7 (or better) fine filter on fresh air during spawning and spawn run, and <strong>positive room pressure</strong> so leaks blow out, not in. HEPA on spawning halls where budget allows.</li>
+<li><strong>Anti-condensation baffling:</strong> prevents drips onto pins (bacterial blotch).</li>
+</ul>
+<h3 style="font-size:18px;margin:24px 0 8px;color:#166534;">5.5 Instruments (minimum kit per room)</h3>
+<table style="border-collapse:collapse;width:100%;margin:12px 0 20px;font-size:14px;">
+<thead>
+<tr>
+<th style="border:1px solid #cbd5e1;background:#ecfdf5;padding:8px;text-align:left;vertical-align:top;text-align: left;">Instrument</th>
+<th style="border:1px solid #cbd5e1;background:#ecfdf5;padding:8px;text-align:left;vertical-align:top;text-align: left;">Spec</th>
+<th style="border:1px solid #cbd5e1;background:#ecfdf5;padding:8px;text-align:left;vertical-align:top;text-align: left;">Indicative cost (KES)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">Compost/bed probe thermometer</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">Digital, 15–30 cm stainless probe, ±0.5 °C</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">2,500–6,000</td>
+</tr>
+<tr>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">Min/max air thermometer + hygrometer</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">Digital, ±3% RH</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">1,500–4,000</td>
+</tr>
+<tr>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">Data logger (temp/RH)</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">USB or Bluetooth, 15-min interval</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">6,000–15,000</td>
+</tr>
+<tr>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">CO₂ meter</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">NDIR, <strong>pressure-compensated</strong> or with a manual altitude correction</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">15,000–45,000</td>
+</tr>
+<tr>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">Ammonia detection</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">Detector tubes or electrochemical NH₃ meter (for Phase II)</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">20,000–80,000</td>
+</tr>
+<tr>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">pH &amp; EC meter</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">For casing and water; calibration buffers</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">5,000–20,000</td>
+</tr>
+</tbody>
+</table>
+<hr style="border:0;border-top:1px solid #e2e8f0;margin:28px 0;" />
+<h2 style="font-size:22px;margin:32px 0 12px;padding-bottom:6px;border-bottom:2px solid #16a34a;color:#14532d;">6. Water &amp; Power Infrastructure Summary</h2>
+<ul>
+<li><strong>Water:</strong> design for ≈ 3 m³/day average and 10 m³/day peak per 100 m²-bed-per-month throughput; combine rainwater harvesting with a borehole or piped supply; elevated storage for gravity pressure; treat for pH/alkalinity. Full engineering: <strong>KE-00 §3</strong>.</li>
+<li><strong>Power:</strong> identify critical loads (cold room, Phase II blower, spawn-run recirculation fans, data loggers) and give them backup power (generator with automatic transfer switch, or solar + battery inverter). A Phase II blower failure during the pasteurisation peak can lose a whole batch.</li>
+</ul>
+<hr style="border:0;border-top:1px solid #e2e8f0;margin:28px 0;" />
+<h2 style="font-size:22px;margin:32px 0 12px;padding-bottom:6px;border-bottom:2px solid #16a34a;color:#14532d;">7. Kenyan Approvals for the Build (summary)</h2>
+<ol>
+<li>County development permission and approved building plans (registered engineer's sign-off for CSEB load-bearing walls).</li>
+<li>NEMA EIA licence covering the compost yard, Phase II tunnel, borehole, and leachate system, <strong>before</strong> breaking ground.</li>
+<li>WRA authorisation and abstraction permit for any borehole.</li>
+<li>DOSHS workplace registration; boiler/pressure-vessel examination for any steam generator.</li>
+</ol>
+<p>Detail and timelines: <strong>KE-00 §5</strong>.</p>
+<hr style="border:0;border-top:1px solid #e2e8f0;margin:28px 0;" />
+<h2 style="font-size:22px;margin:32px 0 12px;padding-bottom:6px;border-bottom:2px solid #16a34a;color:#14532d;">8. Module 1 Checklist</h2>
+<ul>
+<li>☐ 12-month site temperature log reviewed against KE-00 §1 targets</li>
+<li>☐ Track selected (K1 passive / K2 semi-industrial / global industrial) and justified with a cooling-load estimate</li>
+<li>☐ Roof U-value ≤ 0.4 W/m²K specified for grow rooms</li>
+<li>☐ Washable floors and walls with drains in all clean-zone rooms</li>
+<li>☐ Dirty-to-clean layout drawn and approved</li>
+<li>☐ Fans sized with the altitude correction; CO₂ meter pressure-compensated</li>
+<li>☐ Water analysis completed; storage ≥ 60 days if rain-dependent</li>
+<li>☐ Backup power on critical loads</li>
+<li>☐ NEMA, WRA, county, and DOSHS approvals filed</li>
+</ul>
+</div>

@@ -1,0 +1,900 @@
+<div style="font-family:Arial,Helvetica,sans-serif;line-height:1.6;color:#1f2933;">
+<h1 style="font-size:28px;margin:0 0 16px;color:#14532d;">Deliverable Template: Commercial Farm Business Plan &amp; Financial Feasibility Model (Deliverable-505)</h1>
+<ul>
+<li><strong>Template ID:</strong> Deliverable-505</li>
+<li><strong>Version:</strong> 2.0</li>
+<li><strong>Purpose:</strong> A bank- and investor-ready planning framework for a commercial button mushroom enterprise. It models CapEx, OpEx, yields, channel revenue, break-even, payback, sensitivity, and 5-year cash flow in <strong>Kenyan Shillings (KES)</strong> with <strong>USD</strong> equivalents. A completed Kenyan reference case (highland passive farm, Track K1) is included alongside blank input columns.</li>
+<li><strong>Linked Documents:</strong> Module 5 · Deliverable-202 (raw-material costs) · Deliverable-404 (actual yields) · KE-00 §5–6</li>
+</ul>
+<blockquote style="margin:16px 0;padding:12px 16px;background:#f0fdf4;border-left:4px solid #16a34a;">
+<p><strong>How to use:</strong> keep the "Reference" column as a sanity check and fill the "Your farm" column with your own quotes. All reference values are <strong>indicative 2025/26 planning figures</strong>. Replace them before submitting to a lender.</p>
+</blockquote>
+<hr style="border:0;border-top:1px solid #e2e8f0;margin:28px 0;" />
+<h2 style="font-size:22px;margin:32px 0 12px;padding-bottom:6px;border-bottom:2px solid #16a34a;color:#14532d;">0. Global Assumptions</h2>
+<table style="border-collapse:collapse;width:100%;margin:12px 0 20px;font-size:14px;">
+<thead>
+<tr>
+<th style="border:1px solid #cbd5e1;background:#ecfdf5;padding:8px;text-align:left;vertical-align:top;text-align: left;">Assumption</th>
+<th style="border:1px solid #cbd5e1;background:#ecfdf5;padding:8px;text-align:left;vertical-align:top;text-align: right;">Reference</th>
+<th style="border:1px solid #cbd5e1;background:#ecfdf5;padding:8px;text-align:left;vertical-align:top;text-align: right;">Your farm</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">FX rate (KES per USD)</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;">129</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;"></td>
+</tr>
+<tr>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">Bed area per room (m²)</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;">100</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;"></td>
+</tr>
+<tr>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">Number of growing rooms</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;">2</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;"></td>
+</tr>
+<tr>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">Crops per room per year</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;">6</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;"></td>
+</tr>
+<tr>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;"><strong>Crops per year</strong> (rooms × crops/room)</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;"><strong>12</strong></td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;"></td>
+</tr>
+<tr>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">Spawned compost fill (kg/m²)</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;">90</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;"></td>
+</tr>
+<tr>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">Compost per crop (kg) = bed area × fill</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;">9,000</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;"></td>
+</tr>
+<tr>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">Spawn rate (% of compost wet weight)</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;">0.7%</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;"></td>
+</tr>
+<tr>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">Base yield (kg/m²)</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;">18</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;"></td>
+</tr>
+<tr>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">Year-1 / Year-2 yield as % of base (learning curve)</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;">70% / 90%</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;"></td>
+</tr>
+<tr>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">Employer statutory cost uplift on wages</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;">8%</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;"></td>
+</tr>
+<tr>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">Electricity tariff (KES/kWh, all-in)</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;">28</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;"></td>
+</tr>
+</tbody>
+</table>
+<hr style="border:0;border-top:1px solid #e2e8f0;margin:28px 0;" />
+<h2 style="font-size:22px;margin:32px 0 12px;padding-bottom:6px;border-bottom:2px solid #16a34a;color:#14532d;">1. Enterprise Summary (business plan narrative, fill in)</h2>
+<table style="border-collapse:collapse;width:100%;margin:12px 0 20px;font-size:14px;">
+<thead>
+<tr>
+<th style="border:1px solid #cbd5e1;background:#ecfdf5;padding:8px;text-align:left;vertical-align:top;text-align: left;">Section</th>
+<th style="border:1px solid #cbd5e1;background:#ecfdf5;padding:8px;text-align:left;vertical-align:top;text-align: left;">Content</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">Business name, legal form, KRA PIN</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;"></td>
+</tr>
+<tr>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">Location (county, sub-county), altitude, land tenure</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;"></td>
+</tr>
+<tr>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">Promoters and farm manager (experience, training)</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;"></td>
+</tr>
+<tr>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">Production system (Track K1 / K2 / hub-supplied)</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;"></td>
+</tr>
+<tr>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">Products (fresh white / brown, dried, SMC)</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;"></td>
+</tr>
+<tr>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">Target channels and letters of intent held</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;"></td>
+</tr>
+<tr>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">Licences status (NEMA EIA, WRA, county, DOSHS, food premises, KEBS)</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;"></td>
+</tr>
+<tr>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">Funding requested (amount, type, tenor) and own contribution</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;"></td>
+</tr>
+</tbody>
+</table>
+<hr style="border:0;border-top:1px solid #e2e8f0;margin:28px 0;" />
+<h2 style="font-size:22px;margin:32px 0 12px;padding-bottom:6px;border-bottom:2px solid #16a34a;color:#14532d;">2. Capital Expenditure (CapEx)</h2>
+<table style="border-collapse:collapse;width:100%;margin:12px 0 20px;font-size:14px;">
+<thead>
+<tr>
+<th style="border:1px solid #cbd5e1;background:#ecfdf5;padding:8px;text-align:left;vertical-align:top;text-align: left;">Asset category</th>
+<th style="border:1px solid #cbd5e1;background:#ecfdf5;padding:8px;text-align:left;vertical-align:top;text-align: left;">Specification</th>
+<th style="border:1px solid #cbd5e1;background:#ecfdf5;padding:8px;text-align:left;vertical-align:top;text-align: right;">Reference (KES)</th>
+<th style="border:1px solid #cbd5e1;background:#ecfdf5;padding:8px;text-align:left;vertical-align:top;text-align: right;">Reference (USD)</th>
+<th style="border:1px solid #cbd5e1;background:#ecfdf5;padding:8px;text-align:left;vertical-align:top;text-align: right;">Your farm (KES)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">Infrastructure / buildings</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">2 grow rooms + antechamber + packhouse, 200 m² CSEB @ 18,000/m²</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;">3,600,000</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;">27,907</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;"></td>
+</tr>
+<tr>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">Phase I composting yard</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">300 m² roofed slab + goody/leachate pit</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;">1,900,000</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;">14,729</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;"></td>
+</tr>
+<tr>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">Phase II pasteurisation</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">Insulated chamber + atmospheric biomass steam generator + blower</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;">1,400,000</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;">10,853</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;"></td>
+</tr>
+<tr>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">Shelving and growing system</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">200 m² of 4-tier shelving @ 3,000/m²</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;">600,000</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;">4,651</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;"></td>
+</tr>
+<tr>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">Climate control</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">Fans, poly-ducts, screens, humidifier, heater, loggers, CO₂ meter</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;">650,000</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;">5,039</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;"></td>
+</tr>
+<tr>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">Post-harvest and cold chain</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">12 m³ cold room + inverter AC controller</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;">750,000</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;">5,814</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;"></td>
+</tr>
+<tr>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">Water: borehole</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">Survey, WRA permit, ≈ 200 m drilled, cased, test-pumped</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;">2,500,000</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;">19,380</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;"></td>
+</tr>
+<tr>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">Water: solar pumping and storage</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">2 kWp PV, submersible pump, 10 m³ elevated tank</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;">650,000</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;">5,039</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;"></td>
+</tr>
+<tr>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">Backup power</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">15 kVA generator + automatic transfer switch</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;">450,000</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;">3,488</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;"></td>
+</tr>
+<tr>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">Tools, lab and QC</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">Probes, pH/EC meters, scales, NH₃ tubes, forks, wheelbarrows</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;">300,000</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;">2,326</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;"></td>
+</tr>
+<tr>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">Pre-operating and compliance</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">NEMA EIA, WRA, county approvals, training</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;">400,000</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;">3,101</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;"></td>
+</tr>
+<tr>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;"><strong>Subtotal</strong></td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;"></td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;"><strong>13,200,000</strong></td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;"><strong>102,326</strong></td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;"></td>
+</tr>
+<tr>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">Contingency (10%)</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;"></td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;">1,320,000</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;">10,233</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;"></td>
+</tr>
+<tr>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;"><strong>TOTAL CapEx</strong></td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;"><strong>Initial setup capital required</strong></td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;"><strong>14,520,000</strong></td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;"><strong>112,558</strong></td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;"></td>
+</tr>
+</tbody>
+</table>
+<p><em>Alternatives:</em> piped water + rainwater harvesting instead of borehole and solar pumping (≈ KES 0.4–0.6M instead of 3.15M); hub-supplied compost instead of own yard and Phase II (removes ≈ KES 3.3M); Track K2 panel rooms with chillers (≈ KES 45,000–80,000 per m² of building).</p>
+<hr style="border:0;border-top:1px solid #e2e8f0;margin:28px 0;" />
+<h2 style="font-size:22px;margin:32px 0 12px;padding-bottom:6px;border-bottom:2px solid #16a34a;color:#14532d;">3. Operating Expenditure (OpEx) per Crop</h2>
+<table style="border-collapse:collapse;width:100%;margin:12px 0 20px;font-size:14px;">
+<thead>
+<tr>
+<th style="border:1px solid #cbd5e1;background:#ecfdf5;padding:8px;text-align:left;vertical-align:top;text-align: left;">Expense item</th>
+<th style="border:1px solid #cbd5e1;background:#ecfdf5;padding:8px;text-align:left;vertical-align:top;text-align: left;">Calculation basis (reference)</th>
+<th style="border:1px solid #cbd5e1;background:#ecfdf5;padding:8px;text-align:left;vertical-align:top;text-align: right;">Reference (KES/crop)</th>
+<th style="border:1px solid #cbd5e1;background:#ecfdf5;padding:8px;text-align:left;vertical-align:top;text-align: right;">Your farm (KES/crop)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">Straw</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">3.4 t @ KES 15/kg</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;">51,000</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;"></td>
+</tr>
+<tr>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">Poultry manure</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">2.04 t @ KES 6/kg</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;">12,240</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;"></td>
+</tr>
+<tr>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">Bagasse</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">0.68 t @ KES 4/kg</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;">2,720</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;"></td>
+</tr>
+<tr>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">Urea</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">34 kg @ KES 90/kg</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;">3,060</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;"></td>
+</tr>
+<tr>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">Gypsum</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">136 kg @ KES 20/kg</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;">2,720</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;"></td>
+</tr>
+<tr>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">Pasteurisation fuel</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">Biomass per batch</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;">12,000</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;"></td>
+</tr>
+<tr>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">Water treatment</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">Acid/chlorine, filters</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;">3,000</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;"></td>
+</tr>
+<tr>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">Spawn</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">63 kg @ KES 650/kg</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;">40,950</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;"></td>
+</tr>
+<tr>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">Casing</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">4.5 m³ @ KES 7,000/m³ (coir–loam + lime)</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;">31,500</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;"></td>
+</tr>
+<tr>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">Growing bags</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">600 @ KES 15</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;">9,000</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;"></td>
+</tr>
+<tr>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">Labour</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">Manager 70,000 + 7 staff × 20,000, + 8% statutory</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;">226,800</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;"></td>
+</tr>
+<tr>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">Electricity</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">1,200 kWh @ KES 28</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;">33,600</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;"></td>
+</tr>
+<tr>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">Packaging</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">3,600 punnets @ KES 12 + 1,080 kg bulk @ KES 5</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;">48,600</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;"></td>
+</tr>
+<tr>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">Logistics</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">12 deliveries @ KES 3,000</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;">36,000</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;"></td>
+</tr>
+<tr>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">IPM, sanitation, PPE</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;"></td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;">12,000</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;"></td>
+</tr>
+<tr>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">Admin, permits, insurance, accounting</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;"></td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;">25,000</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;"></td>
+</tr>
+<tr>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">Repairs and maintenance</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">1.5% of CapEx per year ÷ 12</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;">18,150</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;"></td>
+</tr>
+<tr>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;"><strong>TOTAL OpEx per crop</strong></td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;"></td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;"><strong>568,340</strong></td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;"></td>
+</tr>
+<tr>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;"><strong>Annual OpEx</strong> (× crops per year)</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;"></td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;"><strong>6,820,080</strong></td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;"></td>
+</tr>
+<tr>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">OpEx per crop in USD</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;"></td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;">4,406</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;"></td>
+</tr>
+</tbody>
+</table>
+<hr style="border:0;border-top:1px solid #e2e8f0;margin:28px 0;" />
+<h2 style="font-size:22px;margin:32px 0 12px;padding-bottom:6px;border-bottom:2px solid #16a34a;color:#14532d;">4. Revenue Model</h2>
+<h3 style="font-size:18px;margin:24px 0 8px;color:#166534;">4.1 Channel mix</h3>
+<table style="border-collapse:collapse;width:100%;margin:12px 0 20px;font-size:14px;">
+<thead>
+<tr>
+<th style="border:1px solid #cbd5e1;background:#ecfdf5;padding:8px;text-align:left;vertical-align:top;text-align: left;">Channel</th>
+<th style="border:1px solid #cbd5e1;background:#ecfdf5;padding:8px;text-align:left;vertical-align:top;text-align: right;">Share of volume</th>
+<th style="border:1px solid #cbd5e1;background:#ecfdf5;padding:8px;text-align:left;vertical-align:top;text-align: right;">Net farm-gate price (KES/kg)</th>
+<th style="border:1px solid #cbd5e1;background:#ecfdf5;padding:8px;text-align:left;vertical-align:top;text-align: right;">Weighted (KES/kg)</th>
+<th style="border:1px solid #cbd5e1;background:#ecfdf5;padding:8px;text-align:left;vertical-align:top;text-align: right;">Your share</th>
+<th style="border:1px solid #cbd5e1;background:#ecfdf5;padding:8px;text-align:left;vertical-align:top;text-align: right;">Your price</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">Supermarkets (Naivas, Quickmart, Carrefour, others), net of rebates</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;">40%</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;">580</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;">232.0</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;"></td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;"></td>
+</tr>
+<tr>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">Hotels, restaurants, caterers, lodges</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;">25%</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;">620</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;">155.0</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;"></td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;"></td>
+</tr>
+<tr>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">Open-air wholesale (Wakulima/Marikiti, City Park, regional markets)</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;">25%</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;">400</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;">100.0</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;"></td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;"></td>
+</tr>
+<tr>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">Processing / Grade C (fresh-equivalent)</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;">10%</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;">200</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;">20.0</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;"></td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;"></td>
+</tr>
+<tr>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;"><strong>Blended price</strong></td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;">100%</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;"></td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;"><strong>507</strong> (USD 3.93)</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;"></td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;"></td>
+</tr>
+</tbody>
+</table>
+<h3 style="font-size:18px;margin:24px 0 8px;color:#166534;">4.2 Per-crop and annual results (base case)</h3>
+<table style="border-collapse:collapse;width:100%;margin:12px 0 20px;font-size:14px;">
+<thead>
+<tr>
+<th style="border:1px solid #cbd5e1;background:#ecfdf5;padding:8px;text-align:left;vertical-align:top;text-align: left;">Line</th>
+<th style="border:1px solid #cbd5e1;background:#ecfdf5;padding:8px;text-align:left;vertical-align:top;text-align: left;">Formula</th>
+<th style="border:1px solid #cbd5e1;background:#ecfdf5;padding:8px;text-align:left;vertical-align:top;text-align: right;">Reference</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">Projected yield per crop (kg)</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">bed area × kg/m²</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;">1,800</td>
+</tr>
+<tr>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">Gross revenue per crop (KES)</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">kg × blended price</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;">912,600</td>
+</tr>
+<tr>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">OpEx per crop (KES)</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">§3</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;">568,340</td>
+</tr>
+<tr>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;"><strong>Net margin per crop (KES)</strong></td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">revenue − OpEx</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;"><strong>344,260</strong></td>
+</tr>
+<tr>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">Cost of production (KES/kg)</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">OpEx ÷ kg</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;"><strong>316</strong></td>
+</tr>
+<tr>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">Annual production (kg)</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">kg/crop × crops/yr</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;">21,600</td>
+</tr>
+<tr>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">Annual revenue (KES)</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;"></td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;">10,951,200</td>
+</tr>
+<tr>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;"><strong>Annual operating profit (KES)</strong></td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;"></td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;"><strong>4,131,120</strong> (USD 32,024)</td>
+</tr>
+<tr>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;"><strong>Simple payback</strong></td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">CapEx ÷ annual operating profit</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;"><strong>3.5 years</strong></td>
+</tr>
+<tr>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;"><strong>Break-even yield (kg/m²)</strong></td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">OpEx per crop ÷ (bed area × blended price)</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;"><strong>11.2</strong></td>
+</tr>
+<tr>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;"><strong>Break-even price at base yield (KES/kg)</strong></td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">OpEx per crop ÷ kg per crop</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;"><strong>316</strong></td>
+</tr>
+</tbody>
+</table>
+<hr style="border:0;border-top:1px solid #e2e8f0;margin:28px 0;" />
+<h2 style="font-size:22px;margin:32px 0 12px;padding-bottom:6px;border-bottom:2px solid #16a34a;color:#14532d;">5. Sensitivity Analysis</h2>
+<h3 style="font-size:18px;margin:24px 0 8px;color:#166534;">5.1 Yield scenarios (price fixed at KES 507/kg)</h3>
+<table style="border-collapse:collapse;width:100%;margin:12px 0 20px;font-size:14px;">
+<thead>
+<tr>
+<th style="border:1px solid #cbd5e1;background:#ecfdf5;padding:8px;text-align:left;vertical-align:top;text-align: left;">Yield (kg/m²)</th>
+<th style="border:1px solid #cbd5e1;background:#ecfdf5;padding:8px;text-align:left;vertical-align:top;text-align: right;">kg/crop</th>
+<th style="border:1px solid #cbd5e1;background:#ecfdf5;padding:8px;text-align:left;vertical-align:top;text-align: right;">Margin per crop (KES)</th>
+<th style="border:1px solid #cbd5e1;background:#ecfdf5;padding:8px;text-align:left;vertical-align:top;text-align: right;">Annual operating profit (KES)</th>
+<th style="border:1px solid #cbd5e1;background:#ecfdf5;padding:8px;text-align:left;vertical-align:top;text-align: right;">Cost/kg (KES)</th>
+<th style="border:1px solid #cbd5e1;background:#ecfdf5;padding:8px;text-align:left;vertical-align:top;text-align: right;">Simple payback (yrs)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">15</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;">1,500</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;">192,160</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;">2,305,920</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;">379</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;">6.3</td>
+</tr>
+<tr>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;"><strong>18</strong></td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;"><strong>1,800</strong></td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;"><strong>344,260</strong></td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;"><strong>4,131,120</strong></td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;"><strong>316</strong></td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;"><strong>3.5</strong></td>
+</tr>
+<tr>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">20</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;">2,000</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;">445,660</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;">5,347,920</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;">284</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;">2.7</td>
+</tr>
+<tr>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">25</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;">2,500</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;">699,160</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;">8,389,920</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;">227</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;">1.7</td>
+</tr>
+</tbody>
+</table>
+<h3 style="font-size:18px;margin:24px 0 8px;color:#166534;">5.2 Annual operating profit (KES): yield × price matrix</h3>
+<table style="border-collapse:collapse;width:100%;margin:12px 0 20px;font-size:14px;">
+<thead>
+<tr>
+<th style="border:1px solid #cbd5e1;background:#ecfdf5;padding:8px;text-align:left;vertical-align:top;text-align: left;">Price ↓ / Yield →</th>
+<th style="border:1px solid #cbd5e1;background:#ecfdf5;padding:8px;text-align:left;vertical-align:top;text-align: right;">15 kg/m²</th>
+<th style="border:1px solid #cbd5e1;background:#ecfdf5;padding:8px;text-align:left;vertical-align:top;text-align: right;">18 kg/m²</th>
+<th style="border:1px solid #cbd5e1;background:#ecfdf5;padding:8px;text-align:left;vertical-align:top;text-align: right;">25 kg/m²</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">−15% (KES 431)</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;">937,020</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;">2,488,440</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;">6,108,420</td>
+</tr>
+<tr>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">Base (KES 507)</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;">2,305,920</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;">4,131,120</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;">8,389,920</td>
+</tr>
+<tr>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">+15% (KES 583)</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;">3,674,820</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;">5,773,800</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;">10,671,420</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Interpretation:</strong> a 15% price drop at a conservative 15 kg/m² leaves the farm barely profitable, with a payback of over 15 years. <strong>Yield discipline is the main protection against price risk.</strong></p>
+<hr style="border:0;border-top:1px solid #e2e8f0;margin:28px 0;" />
+<h2 style="font-size:22px;margin:32px 0 12px;padding-bottom:6px;border-bottom:2px solid #16a34a;color:#14532d;">6. Five-Year Cash-Flow Projection (base case)</h2>
+<p>Ramp-up: Year 1 = 70%, Year 2 = 90%, Years 3–5 = 100% of base yield. OpEx is held constant (conservative: Year-1 costs are carried in full while yields ramp up).</p>
+<table style="border-collapse:collapse;width:100%;margin:12px 0 20px;font-size:14px;">
+<thead>
+<tr>
+<th style="border:1px solid #cbd5e1;background:#ecfdf5;padding:8px;text-align:left;vertical-align:top;text-align: left;">Year</th>
+<th style="border:1px solid #cbd5e1;background:#ecfdf5;padding:8px;text-align:left;vertical-align:top;text-align: right;">Production (kg)</th>
+<th style="border:1px solid #cbd5e1;background:#ecfdf5;padding:8px;text-align:left;vertical-align:top;text-align: right;">Revenue (KES)</th>
+<th style="border:1px solid #cbd5e1;background:#ecfdf5;padding:8px;text-align:left;vertical-align:top;text-align: right;">OpEx (KES)</th>
+<th style="border:1px solid #cbd5e1;background:#ecfdf5;padding:8px;text-align:left;vertical-align:top;text-align: right;">Operating profit (KES)</th>
+<th style="border:1px solid #cbd5e1;background:#ecfdf5;padding:8px;text-align:left;vertical-align:top;text-align: right;">Tax — TOT 1.5% (KES)</th>
+<th style="border:1px solid #cbd5e1;background:#ecfdf5;padding:8px;text-align:left;vertical-align:top;text-align: right;">Cumulative cash — TOT (KES)</th>
+<th style="border:1px solid #cbd5e1;background:#ecfdf5;padding:8px;text-align:left;vertical-align:top;text-align: right;">Tax — 30% CIT (KES)</th>
+<th style="border:1px solid #cbd5e1;background:#ecfdf5;padding:8px;text-align:left;vertical-align:top;text-align: right;">Cumulative cash — CIT (KES)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">0</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;">—</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;">—</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;">—</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;">—</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;">—</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;">−14,520,000</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;">—</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;">−14,520,000</td>
+</tr>
+<tr>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">1</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;">15,120</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;">7,665,840</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;">6,820,080</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;">845,760</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;">114,988</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;">−13,789,228</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;">0</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;">−13,674,240</td>
+</tr>
+<tr>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">2</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;">19,440</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;">9,856,080</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;">6,820,080</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;">3,036,000</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;">147,841</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;">−10,901,069</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;">475,200</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;">−11,113,440</td>
+</tr>
+<tr>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">3</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;">21,600</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;">10,951,200</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;">6,820,080</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;">4,131,120</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;">164,268</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;">−6,934,217</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;">803,736</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;">−7,786,056</td>
+</tr>
+<tr>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">4</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;">21,600</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;">10,951,200</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;">6,820,080</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;">4,131,120</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;">164,268</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;">−2,967,365</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;">803,736</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;">−4,458,672</td>
+</tr>
+<tr>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">5</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;">21,600</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;">10,951,200</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;">6,820,080</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;">4,131,120</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;">164,268</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;"><strong>+999,487</strong></td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;">803,736</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;">−1,131,288</td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li><strong>TOT column:</strong> Turnover Tax at 1.5% of gross revenue (applies to turnover in the KES 1M–25M band; KE-00 §5.1).</li>
+<li><strong>CIT column:</strong> 30% × (operating profit − 10-year straight-line depreciation of CapEx); no loss carry-forward modelled.</li>
+<li><strong>Payback with ramp-up and tax: ≈ 4.75 years (TOT) to ≈ 5.3 years (CIT).</strong></li>
+<li>Financing costs are not included. Add loan interest and repayments in §7.</li>
+<li>Upside not modelled: SMC sales (≈ 6 t per crop at KES 1,500–4,000/t), value-added dried products, and seasonal December price premiums.</li>
+</ul>
+<hr style="border:0;border-top:1px solid #e2e8f0;margin:28px 0;" />
+<h2 style="font-size:22px;margin:32px 0 12px;padding-bottom:6px;border-bottom:2px solid #16a34a;color:#14532d;">7. Financing Plan</h2>
+<table style="border-collapse:collapse;width:100%;margin:12px 0 20px;font-size:14px;">
+<thead>
+<tr>
+<th style="border:1px solid #cbd5e1;background:#ecfdf5;padding:8px;text-align:left;vertical-align:top;text-align: left;">Source</th>
+<th style="border:1px solid #cbd5e1;background:#ecfdf5;padding:8px;text-align:left;vertical-align:top;text-align: right;">Amount (KES)</th>
+<th style="border:1px solid #cbd5e1;background:#ecfdf5;padding:8px;text-align:left;vertical-align:top;text-align: left;">Tenor</th>
+<th style="border:1px solid #cbd5e1;background:#ecfdf5;padding:8px;text-align:left;vertical-align:top;text-align: left;">Rate</th>
+<th style="border:1px solid #cbd5e1;background:#ecfdf5;padding:8px;text-align:left;vertical-align:top;text-align: right;">Monthly repayment (KES)</th>
+<th style="border:1px solid #cbd5e1;background:#ecfdf5;padding:8px;text-align:left;vertical-align:top;text-align: left;">Asset financed</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">Promoter equity</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;"></td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">—</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">—</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;">—</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;"></td>
+</tr>
+<tr>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">SACCO loan</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;"></td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;"></td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;"></td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;"></td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;"></td>
+</tr>
+<tr>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">AFC / bank term loan</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;"></td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;"></td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;"></td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;"></td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;"></td>
+</tr>
+<tr>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">Asset finance (cold room, solar, generator)</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;"></td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;"></td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;"></td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;"></td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;"></td>
+</tr>
+<tr>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">Grant / matching grant</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;"></td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">—</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">—</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;">—</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;"></td>
+</tr>
+<tr>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;"><strong>Total</strong> (must equal CapEx + ≥ 3 months of OpEx working capital)</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;"></td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;"></td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;"></td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;"></td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;"></td>
+</tr>
+</tbody>
+</table>
+<p><strong>Working-capital rule:</strong> hold ≥ 3 months of OpEx (reference ≈ KES 1.7M), because supermarket payment terms of 30–60+ days and the 2-month gap from spawning to first harvest consume cash before revenue arrives.</p>
+<p><strong>Debt Service Coverage Ratio (DSCR)</strong> = annual operating profit ÷ annual loan repayments. Lenders typically look for ≥ 1.3–1.5.</p>
+<hr style="border:0;border-top:1px solid #e2e8f0;margin:28px 0;" />
+<h2 style="font-size:22px;margin:32px 0 12px;padding-bottom:6px;border-bottom:2px solid #16a34a;color:#14532d;">8. Semi-Industrial Scale Reference (Track K2), order of magnitude</h2>
+<table style="border-collapse:collapse;width:100%;margin:12px 0 20px;font-size:14px;">
+<thead>
+<tr>
+<th style="border:1px solid #cbd5e1;background:#ecfdf5;padding:8px;text-align:left;vertical-align:top;text-align: left;">Parameter</th>
+<th style="border:1px solid #cbd5e1;background:#ecfdf5;padding:8px;text-align:left;vertical-align:top;text-align: left;">Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">Bed area</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">1,000 m² (4 rooms × 250 m²)</td>
+</tr>
+<tr>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">Crops per room per year</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">7</td>
+</tr>
+<tr>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">Yield</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">22 kg/m² → 154,000 kg/year</td>
+</tr>
+<tr>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">Blended price</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">KES 500/kg</td>
+</tr>
+<tr>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">Revenue</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">≈ KES 77.0M (USD ≈ 597,000)</td>
+</tr>
+<tr>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">Cost of production</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">KES 280–300/kg</td>
+</tr>
+<tr>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">Operating profit</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">≈ KES 30.8–33.9M</td>
+</tr>
+<tr>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">CapEx</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">≈ KES 90–140M</td>
+</tr>
+<tr>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">Simple payback</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">≈ 3.5–3.9 years at KES 120M CapEx</td>
+</tr>
+<tr>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">Tax note</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">Above the KES 25M TOT ceiling: corporate tax; VAT registration (threshold KES 5M); confirm the VAT status of fresh vs processed products</td>
+</tr>
+</tbody>
+</table>
+<hr style="border:0;border-top:1px solid #e2e8f0;margin:28px 0;" />
+<h2 style="font-size:22px;margin:32px 0 12px;padding-bottom:6px;border-bottom:2px solid #16a34a;color:#14532d;">9. Compliance &amp; Risk Annex (attach to the business plan)</h2>
+<table style="border-collapse:collapse;width:100%;margin:12px 0 20px;font-size:14px;">
+<thead>
+<tr>
+<th style="border:1px solid #cbd5e1;background:#ecfdf5;padding:8px;text-align:left;vertical-align:top;text-align: left;">Item</th>
+<th style="border:1px solid #cbd5e1;background:#ecfdf5;padding:8px;text-align:left;vertical-align:top;text-align: left;">Status (✔ / in progress / ✘)</th>
+<th style="border:1px solid #cbd5e1;background:#ecfdf5;padding:8px;text-align:left;vertical-align:top;text-align: left;">Reference / document no.</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">Business registration / cooperative registration</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;"></td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;"></td>
+</tr>
+<tr>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">KRA PIN, eTIMS, tax regime confirmed</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;"></td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;"></td>
+</tr>
+<tr>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">NEMA EIA licence</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;"></td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;"></td>
+</tr>
+<tr>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">WRA borehole authorisation / abstraction permit</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;"></td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;"></td>
+</tr>
+<tr>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">County building approval and Single Business Permit</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;"></td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;"></td>
+</tr>
+<tr>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">DOSHS workplace registration; boiler examination</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;"></td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;"></td>
+</tr>
+<tr>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">Food premises licence; staff medical certificates</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;"></td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;"></td>
+</tr>
+<tr>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">KEBS S-Mark (processed products)</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;"></td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;"></td>
+</tr>
+<tr>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">Buyer letters of intent (≥ 2)</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;"></td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;"></td>
+</tr>
+<tr>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">Risk register (Module 5 §9) reviewed</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;"></td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;"></td>
+</tr>
+</tbody>
+</table>
+<hr style="border:0;border-top:1px solid #e2e8f0;margin:28px 0;" />
+<h2 style="font-size:22px;margin:32px 0 12px;padding-bottom:6px;border-bottom:2px solid #16a34a;color:#14532d;">10. Key Assumption Sources (record your quotes)</h2>
+<table style="border-collapse:collapse;width:100%;margin:12px 0 20px;font-size:14px;">
+<thead>
+<tr>
+<th style="border:1px solid #cbd5e1;background:#ecfdf5;padding:8px;text-align:left;vertical-align:top;text-align: left;">Assumption</th>
+<th style="border:1px solid #cbd5e1;background:#ecfdf5;padding:8px;text-align:left;vertical-align:top;text-align: left;">Source (supplier/buyer name, date of quote)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">Straw price</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;"></td>
+</tr>
+<tr>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">Manure price</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;"></td>
+</tr>
+<tr>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">Spawn price</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;"></td>
+</tr>
+<tr>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">Casing materials</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;"></td>
+</tr>
+<tr>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">Building cost per m²</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;"></td>
+</tr>
+<tr>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">Borehole quote</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;"></td>
+</tr>
+<tr>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">Electricity tariff</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;"></td>
+</tr>
+<tr>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">Buyer prices by channel</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;"></td>
+</tr>
+</tbody>
+</table>
+</div>

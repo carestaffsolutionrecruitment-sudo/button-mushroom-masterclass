@@ -1,0 +1,643 @@
+<div style="font-family:Arial,Helvetica,sans-serif;line-height:1.6;color:#1f2933;">
+<h1 style="font-size:28px;margin:0 0 16px;color:#14532d;">Deliverable Template: Raw Material C:N Ratio Calculator &amp; Batch Sheet (Deliverable-202)</h1>
+<ul>
+<li><strong>Template ID:</strong> Deliverable-202</li>
+<li><strong>Version:</strong> 2.0</li>
+<li><strong>Purpose:</strong> A batch-calculation sheet to compute dry matter, carbon, nitrogen, C:N ratio, nitrogen %, gypsum, and water requirements for Phase I substrate preparation, using local Kenyan raw-material analyses or global reference values.</li>
+<li><strong>Linked Documents:</strong> Module 2 · SOP-201 · KE-00 §2.1</li>
+</ul>
+<hr style="border:0;border-top:1px solid #e2e8f0;margin:28px 0;" />
+<h2 style="font-size:22px;margin:32px 0 12px;padding-bottom:6px;border-bottom:2px solid #16a34a;color:#14532d;">1. Reference Analysis Library (dry-matter basis unless noted)</h2>
+<p><em>Use lab results for your own suppliers whenever available. These are typical planning values.</em></p>
+<table style="border-collapse:collapse;width:100%;margin:12px 0 20px;font-size:14px;">
+<thead>
+<tr>
+<th style="border:1px solid #cbd5e1;background:#ecfdf5;padding:8px;text-align:left;vertical-align:top;text-align: left;">Material</th>
+<th style="border:1px solid #cbd5e1;background:#ecfdf5;padding:8px;text-align:left;vertical-align:top;text-align: left;">Dry matter (% of wet)</th>
+<th style="border:1px solid #cbd5e1;background:#ecfdf5;padding:8px;text-align:left;vertical-align:top;text-align: left;">Carbon (% DM)</th>
+<th style="border:1px solid #cbd5e1;background:#ecfdf5;padding:8px;text-align:left;vertical-align:top;text-align: left;">Nitrogen (% DM)</th>
+<th style="border:1px solid #cbd5e1;background:#ecfdf5;padding:8px;text-align:left;vertical-align:top;text-align: left;">Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">Wheat straw (Rift Valley)</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">85–90 (use 88)</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">42–45 (use 44)</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">0.4–0.7 (use 0.6)</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">Primary carbon base</td>
+</tr>
+<tr>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">Barley straw</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">85–90</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">42–45</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">0.5–0.8</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">Faster breakdown</td>
+</tr>
+<tr>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">Rice straw (Mwea/Ahero)</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">85–90</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">38–42</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">0.5–0.8</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">High silica</td>
+</tr>
+<tr>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">Layer poultry manure</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">50–75 (use 60)</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">30–35 (use 32)</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">2.5–4.0 (use 3.0)</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">Core nitrogen source</td>
+</tr>
+<tr>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">Broiler litter</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">70–80 (use 75)</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">33–38 (use 35)</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">2.0–3.5 (use 2.8)</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">Bedding adds carbon</td>
+</tr>
+<tr>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">Kienyeji manure</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">60–80 (use 70)</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">25–30 (use 28)</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">1.0–1.8 (use 1.5)</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">High ash/soil: <strong>always lab-test</strong></td>
+</tr>
+<tr>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">Horse manure (straw-bedded)</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">30–40</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">35–40</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">1.2–1.8</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">Classic European base</td>
+</tr>
+<tr>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">Sugarcane bagasse</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">45–55 (use 50)</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">44–46 (use 45)</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">0.2–0.4 (use 0.3)</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">Max 20–30% of the carbon base</td>
+</tr>
+<tr>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">Coffee husk</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">85–90 (use 88)</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">44–46 (use 45)</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">1.0–1.8 (use 1.5)</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">Max 15–20% of the dry mix</td>
+</tr>
+<tr>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">Brewers' spent grain (fresh)</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">20–25</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">45–50</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">3.5–4.5</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">Use same day</td>
+</tr>
+<tr>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">Urea</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">≈ 100</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">20</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">46</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">N top-up</td>
+</tr>
+<tr>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">Ammonium sulphate</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">≈ 100</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">0</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">21</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">N top-up (also adds S)</td>
+</tr>
+<tr>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">Agricultural gypsum</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">≈ 99</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">0</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">0</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">3–5% of total dry mass</td>
+</tr>
+</tbody>
+</table>
+<hr style="border:0;border-top:1px solid #e2e8f0;margin:28px 0;" />
+<h2 style="font-size:22px;margin:32px 0 12px;padding-bottom:6px;border-bottom:2px solid #16a34a;color:#14532d;">2. Formulas</h2>
+<p>For each ingredient i:</p>
+<blockquote style="margin:16px 0;padding:12px 16px;background:#f0fdf4;border-left:4px solid #16a34a;">
+<p><strong>Dry matter (kg)</strong> = Wet weight × DM%  ·  <strong>Carbon (kg)</strong> = Dry matter × C%  ·  <strong>Nitrogen (kg)</strong> = Dry matter × N%</p>
+<p><strong>C:N ratio</strong> = Total carbon ÷ Total nitrogen  ·  <strong>N% (DM)</strong> = Total nitrogen ÷ Total dry matter × 100</p>
+</blockquote>
+<p><strong>Water required to reach a target moisture M (e.g., 0.72):</strong></p>
+<blockquote style="margin:16px 0;padding:12px 16px;background:#f0fdf4;border-left:4px solid #16a34a;">
+<p><strong>Target wet mass (kg)</strong> = Total dry matter ÷ (1 − target moisture)  ·  <strong>Water to add (L)</strong> = Target wet mass − Total wet weight of ingredients</p>
+</blockquote>
+<p>Add <strong>+20–30%</strong> in Kenyan hot/dry months (Jan–Feb, Sep–Oct) for evaporation.</p>
+<p><strong>Targets:</strong> C:N <strong>25:1 – 30:1</strong> at the start (falling to ≈ 17–20:1 by the end of Phase II) <strong>and</strong> N <strong>1.5–1.8% DM</strong>. Both must be met.</p>
+<p><strong>Spreadsheet implementation</strong> (one ingredient per row, columns A–H as in the batch sheet below):
+* D (DM kg) <code style="font-family:Consolas,Menlo,monospace;">= B * C</code>  ·  G (C kg) <code style="font-family:Consolas,Menlo,monospace;">= D * E</code>  ·  H (N kg) <code style="font-family:Consolas,Menlo,monospace;">= D * F</code>
+* C:N <code style="font-family:Consolas,Menlo,monospace;">= SUM(G:G) / SUM(H:H)</code>  ·  N% <code style="font-family:Consolas,Menlo,monospace;">= SUM(H:H) / SUM(D:D) * 100</code>
+* Water <code style="font-family:Consolas,Menlo,monospace;">= SUM(D:D) / (1 - 0.72) - SUM(B:B)</code></p>
+<hr style="border:0;border-top:1px solid #e2e8f0;margin:28px 0;" />
+<h2 style="font-size:22px;margin:32px 0 12px;padding-bottom:6px;border-bottom:2px solid #16a34a;color:#14532d;">3. Worked Example 1 — Recipe KE-A "Rift Standard" (per 1,000 kg straw)</h2>
+<table style="border-collapse:collapse;width:100%;margin:12px 0 20px;font-size:14px;">
+<thead>
+<tr>
+<th style="border:1px solid #cbd5e1;background:#ecfdf5;padding:8px;text-align:left;vertical-align:top;text-align: left;">Raw material</th>
+<th style="border:1px solid #cbd5e1;background:#ecfdf5;padding:8px;text-align:left;vertical-align:top;text-align: right;">Wet weight (kg)</th>
+<th style="border:1px solid #cbd5e1;background:#ecfdf5;padding:8px;text-align:left;vertical-align:top;text-align: right;">DM %</th>
+<th style="border:1px solid #cbd5e1;background:#ecfdf5;padding:8px;text-align:left;vertical-align:top;text-align: right;">Dry weight (kg)</th>
+<th style="border:1px solid #cbd5e1;background:#ecfdf5;padding:8px;text-align:left;vertical-align:top;text-align: right;">C % DM</th>
+<th style="border:1px solid #cbd5e1;background:#ecfdf5;padding:8px;text-align:left;vertical-align:top;text-align: right;">N % DM</th>
+<th style="border:1px solid #cbd5e1;background:#ecfdf5;padding:8px;text-align:left;vertical-align:top;text-align: right;">Total C (kg)</th>
+<th style="border:1px solid #cbd5e1;background:#ecfdf5;padding:8px;text-align:left;vertical-align:top;text-align: right;">Total N (kg)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">Wheat straw</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;">1,000</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;">88%</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;">880.0</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;">44%</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;">0.6%</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;">387.2</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;">5.28</td>
+</tr>
+<tr>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">Layer manure</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;">600</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;">60%</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;">360.0</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;">32%</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;">3.0%</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;">115.2</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;">10.80</td>
+</tr>
+<tr>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">Sugarcane bagasse</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;">200</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;">50%</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;">100.0</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;">45%</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;">0.3%</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;">45.0</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;">0.30</td>
+</tr>
+<tr>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">Urea</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;">10</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;">100%</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;">10.0</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;">20%</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;">46%</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;">2.0</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;">4.60</td>
+</tr>
+<tr>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">Agricultural gypsum</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;">40</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;">99%</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;">39.6</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;">0%</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;">0%</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;">0.0</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;">0.00</td>
+</tr>
+<tr>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;"><strong>TOTALS</strong></td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;"><strong>1,850</strong></td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;">—</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;"><strong>1,389.6</strong></td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;">—</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;">—</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;"><strong>549.4</strong></td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;"><strong>20.98</strong></td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li><strong>C:N</strong> = 549.4 ÷ 20.98 = <strong>26.2 : 1</strong> ✔</li>
+<li><strong>N% DM</strong> = 20.98 ÷ 1,389.6 × 100 = <strong>1.51%</strong> ✔</li>
+<li><strong>Gypsum check:</strong> 39.6 ÷ 1,389.6 = 2.8% of DM, at the low end. <strong>Raise to 55–60 kg</strong> if the compost turns greasy.</li>
+<li><strong>Water to 72% moisture:</strong> 1,389.6 ÷ 0.28 = 4,963 kg target → 4,963 − 1,850 = <strong>≈ 3,113 L</strong> (≈ 3.1 m³ per tonne of straw).</li>
+<li><strong>Sensitivity:</strong> without the 10 kg of urea, C:N = <strong>33.4 : 1</strong>, outside the target.</li>
+</ul>
+<h2 style="font-size:22px;margin:32px 0 12px;padding-bottom:6px;border-bottom:2px solid #16a34a;color:#14532d;">4. Worked Example 2 — Recipe KE-C "Kienyeji Cooperative" (per 1,000 kg straw)</h2>
+<table style="border-collapse:collapse;width:100%;margin:12px 0 20px;font-size:14px;">
+<thead>
+<tr>
+<th style="border:1px solid #cbd5e1;background:#ecfdf5;padding:8px;text-align:left;vertical-align:top;text-align: left;">Raw material</th>
+<th style="border:1px solid #cbd5e1;background:#ecfdf5;padding:8px;text-align:left;vertical-align:top;text-align: right;">Wet (kg)</th>
+<th style="border:1px solid #cbd5e1;background:#ecfdf5;padding:8px;text-align:left;vertical-align:top;text-align: right;">DM %</th>
+<th style="border:1px solid #cbd5e1;background:#ecfdf5;padding:8px;text-align:left;vertical-align:top;text-align: right;">DM (kg)</th>
+<th style="border:1px solid #cbd5e1;background:#ecfdf5;padding:8px;text-align:left;vertical-align:top;text-align: right;">C %</th>
+<th style="border:1px solid #cbd5e1;background:#ecfdf5;padding:8px;text-align:left;vertical-align:top;text-align: right;">N %</th>
+<th style="border:1px solid #cbd5e1;background:#ecfdf5;padding:8px;text-align:left;vertical-align:top;text-align: right;">C (kg)</th>
+<th style="border:1px solid #cbd5e1;background:#ecfdf5;padding:8px;text-align:left;vertical-align:top;text-align: right;">N (kg)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">Wheat straw</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;">1,000</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;">88%</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;">880.0</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;">44%</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;">0.6%</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;">387.2</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;">5.28</td>
+</tr>
+<tr>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">Kienyeji manure</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;">900</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;">70%</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;">630.0</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;">28%</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;">1.5%</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;">176.4</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;">9.45</td>
+</tr>
+<tr>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">Urea</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;">20</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;">100%</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;">20.0</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;">20%</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;">46%</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;">4.0</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;">9.20</td>
+</tr>
+<tr>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">Gypsum</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;">45</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;">99%</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;">44.6</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;">0%</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;">0%</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;">0.0</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;">0.00</td>
+</tr>
+<tr>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;"><strong>TOTALS</strong></td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;"><strong>1,965</strong></td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;">—</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;"><strong>1,574.6</strong></td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;">—</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;">—</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;"><strong>567.6</strong></td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;"><strong>23.93</strong></td>
+</tr>
+</tbody>
+</table>
+<ul>
+<li><strong>C:N = 23.7 : 1</strong>, <strong>N = 1.52% DM</strong> ✔</li>
+<li><strong>Lesson:</strong> with only 10 kg of urea, C:N looks acceptable (≈ 29:1) but N falls to ≈ 1.24% DM, which is nitrogen-starved. Low-N, high-ash manures need <strong>both</strong> checks.</li>
+</ul>
+<hr style="border:0;border-top:1px solid #e2e8f0;margin:28px 0;" />
+<h2 style="font-size:22px;margin:32px 0 12px;padding-bottom:6px;border-bottom:2px solid #16a34a;color:#14532d;">5. Blank Batch Sheet</h2>
+<ul>
+<li><strong>Batch ID:</strong> <strong><em>_</em></strong><strong><em>_</em></strong> <strong>Date stacked (Day 0):</strong> <strong><em>_</em></strong><strong><em>_</em></strong> <strong>Yard manager:</strong> <strong><em>_</em></strong><strong><em>_</em></strong></li>
+<li><strong>Season / weather notes:</strong> <strong><em>_</em></strong><strong><em>_</em></strong></li>
+</ul>
+<table style="border-collapse:collapse;width:100%;margin:12px 0 20px;font-size:14px;">
+<thead>
+<tr>
+<th style="border:1px solid #cbd5e1;background:#ecfdf5;padding:8px;text-align:left;vertical-align:top;text-align: left;">Raw material (supplier)</th>
+<th style="border:1px solid #cbd5e1;background:#ecfdf5;padding:8px;text-align:left;vertical-align:top;text-align: right;">Wet weight (kg)</th>
+<th style="border:1px solid #cbd5e1;background:#ecfdf5;padding:8px;text-align:left;vertical-align:top;text-align: right;">DM %</th>
+<th style="border:1px solid #cbd5e1;background:#ecfdf5;padding:8px;text-align:left;vertical-align:top;text-align: right;">Dry weight (kg)</th>
+<th style="border:1px solid #cbd5e1;background:#ecfdf5;padding:8px;text-align:left;vertical-align:top;text-align: right;">C % DM</th>
+<th style="border:1px solid #cbd5e1;background:#ecfdf5;padding:8px;text-align:left;vertical-align:top;text-align: right;">N % DM</th>
+<th style="border:1px solid #cbd5e1;background:#ecfdf5;padding:8px;text-align:left;vertical-align:top;text-align: right;">Total C (kg)</th>
+<th style="border:1px solid #cbd5e1;background:#ecfdf5;padding:8px;text-align:left;vertical-align:top;text-align: right;">Total N (kg)</th>
+<th style="border:1px solid #cbd5e1;background:#ecfdf5;padding:8px;text-align:left;vertical-align:top;text-align: center;">Lab-verified? (Y/N)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">Straw: <strong><em>_</em></strong>_</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;"></td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;"></td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;"></td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;"></td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;"></td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;"></td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;"></td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: center;"></td>
+</tr>
+<tr>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">Manure 1: <strong><em>_</em></strong>_</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;"></td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;"></td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;"></td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;"></td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;"></td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;"></td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;"></td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: center;"></td>
+</tr>
+<tr>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">Manure 2: <strong><em>_</em></strong>_</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;"></td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;"></td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;"></td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;"></td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;"></td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;"></td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;"></td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: center;"></td>
+</tr>
+<tr>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">Bagasse / husk: <strong><em>_</em></strong>_</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;"></td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;"></td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;"></td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;"></td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;"></td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;"></td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;"></td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: center;"></td>
+</tr>
+<tr>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">Urea / AS: <strong><em>_</em></strong>_</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;"></td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;"></td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;"></td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;"></td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;"></td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;"></td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;"></td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: center;"></td>
+</tr>
+<tr>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">Gypsum: <strong><em>_</em></strong>_</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;"></td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;"></td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;"></td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;">0</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;">0</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;">0</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;">0</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: center;"></td>
+</tr>
+<tr>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;"><strong>TOTALS</strong></td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;"></td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;">—</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;"></td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;">—</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;">—</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;"></td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;"></td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: center;"></td>
+</tr>
+</tbody>
+</table>
+<table style="border-collapse:collapse;width:100%;margin:12px 0 20px;font-size:14px;">
+<thead>
+<tr>
+<th style="border:1px solid #cbd5e1;background:#ecfdf5;padding:8px;text-align:left;vertical-align:top;text-align: left;">Result</th>
+<th style="border:1px solid #cbd5e1;background:#ecfdf5;padding:8px;text-align:left;vertical-align:top;text-align: left;">Value</th>
+<th style="border:1px solid #cbd5e1;background:#ecfdf5;padding:8px;text-align:left;vertical-align:top;text-align: left;">Target</th>
+<th style="border:1px solid #cbd5e1;background:#ecfdf5;padding:8px;text-align:left;vertical-align:top;text-align: center;">OK?</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">C:N</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;"></td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">25–30 : 1</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: center;"></td>
+</tr>
+<tr>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">N % DM</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;"></td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">1.5–1.8%</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: center;"></td>
+</tr>
+<tr>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">Gypsum % of DM</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;"></td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">3–5%</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: center;"></td>
+</tr>
+<tr>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">Water to add (L)</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;"></td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">Target moisture 70–75%</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: center;"></td>
+</tr>
+<tr>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">Expected compost output (≈ 2.9 t per t straw)</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;"></td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">—</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: center;"></td>
+</tr>
+</tbody>
+</table>
+<h2 style="font-size:22px;margin:32px 0 12px;padding-bottom:6px;border-bottom:2px solid #16a34a;color:#14532d;">6. Phase I Daily Log (attach)</h2>
+<table style="border-collapse:collapse;width:100%;margin:12px 0 20px;font-size:14px;">
+<thead>
+<tr>
+<th style="border:1px solid #cbd5e1;background:#ecfdf5;padding:8px;text-align:left;vertical-align:top;text-align: left;">Day</th>
+<th style="border:1px solid #cbd5e1;background:#ecfdf5;padding:8px;text-align:left;vertical-align:top;text-align: left;">Date</th>
+<th style="border:1px solid #cbd5e1;background:#ecfdf5;padding:8px;text-align:left;vertical-align:top;text-align: left;">Core temp (°C) at 3 points</th>
+<th style="border:1px solid #cbd5e1;background:#ecfdf5;padding:8px;text-align:left;vertical-align:top;text-align: left;">Squeeze test</th>
+<th style="border:1px solid #cbd5e1;background:#ecfdf5;padding:8px;text-align:left;vertical-align:top;text-align: left;">Water added (L)</th>
+<th style="border:1px solid #cbd5e1;background:#ecfdf5;padding:8px;text-align:left;vertical-align:top;text-align: center;">Turn?</th>
+<th style="border:1px solid #cbd5e1;background:#ecfdf5;padding:8px;text-align:left;vertical-align:top;text-align: left;">Smell / colour</th>
+<th style="border:1px solid #cbd5e1;background:#ecfdf5;padding:8px;text-align:left;vertical-align:top;text-align: left;">Initials</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">0</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;"></td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;"></td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;"></td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;"></td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: center;">Build</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;"></td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;"></td>
+</tr>
+<tr>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">1</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;"></td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;"></td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;"></td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;"></td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: center;"></td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;"></td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;"></td>
+</tr>
+<tr>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">2</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;"></td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;"></td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;"></td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;"></td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: center;"></td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;"></td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;"></td>
+</tr>
+<tr>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">3</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;"></td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;"></td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;"></td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;"></td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: center;"></td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;"></td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;"></td>
+</tr>
+<tr>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">4</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;"></td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;"></td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;"></td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;"></td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: center;">✔</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;"></td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;"></td>
+</tr>
+<tr>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">5</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;"></td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;"></td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;"></td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;"></td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: center;"></td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;"></td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;"></td>
+</tr>
+<tr>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">6</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;"></td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;"></td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;"></td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;"></td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: center;"></td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;"></td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;"></td>
+</tr>
+<tr>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">7</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;"></td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;"></td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;"></td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;"></td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: center;">✔ + gypsum</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;"></td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;"></td>
+</tr>
+<tr>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">8</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;"></td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;"></td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;"></td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;"></td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: center;"></td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;"></td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;"></td>
+</tr>
+<tr>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">9</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;"></td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;"></td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;"></td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;"></td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: center;"></td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;"></td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;"></td>
+</tr>
+<tr>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">10</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;"></td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;"></td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;"></td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;"></td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: center;">✔</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;"></td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;"></td>
+</tr>
+<tr>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">11</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;"></td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;"></td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;"></td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;"></td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: center;"></td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;"></td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;"></td>
+</tr>
+<tr>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">12</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;"></td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;"></td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;"></td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;"></td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: center;"></td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;"></td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;"></td>
+</tr>
+<tr>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">13</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;"></td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;"></td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;"></td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;"></td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: center;">✔ final</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;"></td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;"></td>
+</tr>
+</tbody>
+</table>
+<h2 style="font-size:22px;margin:32px 0 12px;padding-bottom:6px;border-bottom:2px solid #16a34a;color:#14532d;">7. Cost Line (feeds Deliverable-505)</h2>
+<table style="border-collapse:collapse;width:100%;margin:12px 0 20px;font-size:14px;">
+<thead>
+<tr>
+<th style="border:1px solid #cbd5e1;background:#ecfdf5;padding:8px;text-align:left;vertical-align:top;text-align: left;">Material</th>
+<th style="border:1px solid #cbd5e1;background:#ecfdf5;padding:8px;text-align:left;vertical-align:top;text-align: right;">Quantity</th>
+<th style="border:1px solid #cbd5e1;background:#ecfdf5;padding:8px;text-align:left;vertical-align:top;text-align: right;">Unit price (KES)</th>
+<th style="border:1px solid #cbd5e1;background:#ecfdf5;padding:8px;text-align:left;vertical-align:top;text-align: right;">Cost (KES)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">Straw (kg)</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;"></td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;">≈ 10–18/kg</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;"></td>
+</tr>
+<tr>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">Manure (kg)</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;"></td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;">≈ 3–7/kg</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;"></td>
+</tr>
+<tr>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">Bagasse/husk (kg)</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;"></td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;">≈ 1–5/kg</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;"></td>
+</tr>
+<tr>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">Urea (kg)</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;"></td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;">≈ 70–110/kg</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;"></td>
+</tr>
+<tr>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;">Gypsum (kg)</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;"></td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;">≈ 15–30/kg</td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;"></td>
+</tr>
+<tr>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;"><strong>Batch total</strong></td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;"></td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;"></td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;"></td>
+</tr>
+<tr>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: left;"><strong>Per tonne of compost produced</strong></td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;"></td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;"></td>
+<td style="border:1px solid #cbd5e1;padding:8px;vertical-align:top;text-align: right;"></td>
+</tr>
+</tbody>
+</table>
+</div>
