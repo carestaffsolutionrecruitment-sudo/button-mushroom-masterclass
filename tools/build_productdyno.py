@@ -42,6 +42,7 @@ LESSONS = [
     ("Module 4", "assets/deliverables/Deliverable-404-flush-yield-tracking.md"),
     ("Module 5", "modules/module-5/05-economics-marketing.md"),
     ("Module 5", "assets/deliverables/Deliverable-505-business-plan-model.md"),
+    ("Bonus", "assets/reference/bonus-kenya-funding-frameworks.md"),
 ]
 
 FONT = "font-family:Arial,Helvetica,sans-serif;line-height:1.6;color:#1f2933;"

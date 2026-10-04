@@ -85,7 +85,8 @@ button-mushroom-masterclass/
 │
 ├── assets/
 │   ├── reference/
-│   │   └── KE-00-kenya-regional-reference.md
+│   │   ├── KE-00-kenya-regional-reference.md
+│   │   └── bonus-kenya-funding-frameworks.md
 │   ├── sops/
 │   │   ├── SOP-101-low-cost-passive-climate.md
 │   │   ├── SOP-201-phase-1-composting.md
@@ -131,6 +132,7 @@ The markdown files are the source of truth. ProductDyno's lesson editor does not
 | Module 3 | Spawning & Casing · SOP-301 · SOP-302 · Deliverable-303 |
 | Module 4 | Fruiting & Harvest · SOP-401 · SOP-402 · SOP-403 · Deliverable-404 |
 | Module 5 | Economics & Markets · Deliverable-505 |
+| Bonus | Kenya Institutional Funding Frameworks (YEDF, WEF, Uwezo, Hustler Fund, AFC, KCIC, bank agribusiness divisions) |
 
 *Tip:* SOPs and Deliverables also work well as downloadable PDFs attached to their lesson. Print the HTML preview to PDF from a browser.
 
